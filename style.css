@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 	
-@media  creen and (min-width: 1200px) { 
+@media  screen and (min-width: 1200px) { 
 	.servicio{
 		width: 17%;
 		float:left;
@@ -11,7 +11,7 @@
 }
  
 /* Portrait tablet to landscape and desktop */
-@media creen and(min-width: 768px) and (max-width: 979px) { 
+@media screen and(min-width: 768px) and (max-width: 979px) { 
 	.servicio{
 		width: 17%;
 		float:left;
@@ -22,24 +22,20 @@
 }
  
 /* Landscape phone to portrait tablet */
-@media creen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.servicio{
-		width: 23%;
+		width: 100%;
 		float:left;
-		margin-right: 30px;
-		margin-left: 30px;
-		height: 250px;
+		text-align:center;
 	}
 }
  
 /* Landscape phones and down */
-@media creen and(max-width: 480px) { 
+@media screen and(max-width: 480px) { 
 	.servicio{
-		width: 34%;
+		width: 100%;
 		float:left;
-		margin-right: 30px;
-		margin-left: 30px;
-		height: 260px;
+		text-align: center;		
 	}
 }
 .page{
@@ -67,14 +63,12 @@
 		float: left;
 		margin-top: 5%;
 	}
-	.servicio{
-		width: 17%;
-		float:left;
-		margin-right: 10px;
-		margin-left: 10px;
-	}
 	.menu{
 		width: 85%;
 		margin: 0 auto;
 		padding: 10px;
+	}
+	
+	.text-center {
+		text-align:center;
 	}
