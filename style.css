@@ -9,13 +9,12 @@
 		margin-left: 10px;
 	}
 	.logo {
-		width: 800px;
 		height: 200px;
 	}
 }
  
 /* Portrait tablet to landscape and desktop */
-@media screen and(min-width: 768px) and (max-width: 979px) { 
+@media screen and (max-width: 979px) { 
 	.servicio{
 		width: 17%;
 		float:left;
@@ -24,20 +23,18 @@
 		height: 250px;
 	}
 	.logo {
-		width: 600px;
 		height: 150px;
 	}
 }
  
 /* Landscape phone to portrait tablet */
-@media screen and (min-width: 481px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.servicio{
 		width: 100%;
 		float:left;
 		text-align:center;
 	}
 	.logo {
-		width: 500px;
 		height: 120px;
 	}
 }
@@ -50,7 +47,6 @@
 		text-align: center;		
 	}
 	.logo {
-		width: 300px;
 		height: 80px;
 	}
 }
@@ -65,7 +61,7 @@
 	}
 	
 	.villa {
-		width: 100%;
+		width: 99%;
 		margin: 0 auto;
 		float: left !important;
 		padding: 10px;
