@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+	
+@media  creen and (min-width: 1200px) { 
+	.servicio{
+		width: 17%;
+		float:left;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media creen and(min-width: 768px) and (max-width: 979px) { 
+	.servicio{
+		width: 17%;
+		float:left;
+		margin-right: 30px;
+		margin-left: 30px;
+		height: 250px;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media creen and (max-width: 767px) {
+	.servicio{
+		width: 23%;
+		float:left;
+		margin-right: 30px;
+		margin-left: 30px;
+		height: 250px;
+	}
+}
+ 
+/* Landscape phones and down */
+@media creen and(max-width: 480px) { 
+	.servicio{
+		width: 34%;
+		float:left;
+		margin-right: 30px;
+		margin-left: 30px;
+		height: 260px;
+	}
+}
+.page{
+		margin: 2px auto;
+	
+	}
+	p {
+		font-family:arial;
+		font-size:10pt;
+		color:#FFF;
+	}
+	
+	.villa{
+		width: 85%;
+		margin: 0 auto;
+		float: none !important;
+		padding: 10px;
+	}
+	.onda img{
+		width: 25%;
+		float: left;
+	}
+	.logo img{
+		width: 50%;
+		float: left;
+		margin-top: 5%;
+	}
+	.servicio{
+		width: 17%;
+		float:left;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.menu{
+		width: 85%;
+		margin: 0 auto;
+		padding: 10px;
+	}
