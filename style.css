@@ -1,12 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 	
-@media  screen and (min-width: 1200px) { 
+@media  screen and (min-width: 979px) { 
 	.servicio{
 		width: 17%;
 		float:left;
 		margin-right: 10px;
 		margin-left: 10px;
+	}
+	.logo {
+		width: 800px;
+		height: 200px;
 	}
 }
  
@@ -19,14 +23,22 @@
 		margin-left: 30px;
 		height: 250px;
 	}
+	.logo {
+		width: 600px;
+		height: 150px;
+	}
 }
  
 /* Landscape phone to portrait tablet */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
 	.servicio{
 		width: 100%;
 		float:left;
 		text-align:center;
+	}
+	.logo {
+		width: 500px;
+		height: 120px;
 	}
 }
  
@@ -36,6 +48,10 @@
 		width: 100%;
 		float:left;
 		text-align: center;		
+	}
+	.logo {
+		width: 300px;
+		height: 80px;
 	}
 }
 .page{
@@ -48,23 +64,27 @@
 		color:#FFF;
 	}
 	
-	.villa{
-		width: 85%;
+	.villa {
+		width: 100%;
 		margin: 0 auto;
-		float: none !important;
+		float: left !important;
 		padding: 10px;
+		text-align: center;
 	}
-	.onda img{
-		width: 25%;
-		float: left;
+	.villa-container {
+		margin: 0 auto;
+		width:70%;
+		
 	}
-	.logo img{
-		width: 50%;
-		float: left;
-		margin-top: 5%;
+	.logo {
+		background-image: url("img/redlibre_.png");
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+       position: relative;
+    	top: 15px;
 	}
 	.menu{
-		width: 85%;
+		width: 55%;
 		margin: 0 auto;
 		padding: 10px;
 	}
